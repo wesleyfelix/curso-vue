@@ -6,6 +6,9 @@ new Vue({
     methods: {
         exibirAlerta() {
             alert('estou te alertando')
+        },
+        alterarValor(event){
+            this.valor = event.target.value
         }
     }
 })
